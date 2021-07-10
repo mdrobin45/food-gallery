@@ -22,7 +22,7 @@
         transition: 1s transform;
         cursor: pointer;
     }
-    img:hover{
+    .img-box:hover img{
         
         transform: rotate(360deg);
     }
@@ -30,7 +30,7 @@
         width: 95%;
         margin: auto;
         display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-columns: repeat(4, 1fr);
         grid-gap: 15px 15px;
         padding-top: 2rem;
         justify-content: center;
